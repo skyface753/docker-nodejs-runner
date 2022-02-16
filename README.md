@@ -12,7 +12,8 @@ version: '3'
 services:
   image: skyface753/nodejsrunner
   ports:
-    - 8451:80
+    - 80:80
+    - 443:443
   volumes:
     - ./NodeJsFiles:/usr/src/app
     
